@@ -1,0 +1,101 @@
+<http-page executeResourcesDynamically="false" name="/scripts/a/ai.0.js"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/workflow retry errors_@broken/%resources%/recorded-artifacts/0f2f0751-da19-4382-bb3e-5eb751e6d775.zip"
+    slaProfileEnabled="false" thinkTime="7298"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0f2f0751-da19-4382-bb3e-5eb751e6d775">
+    <embedded-action>5248d987-ef4e-4293-9150-5de1c6bef298</embedded-action>
+    <embedded-action>e08d240a-ca08-44a4-960b-80ea7701cf1e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_2deb0c7b-6f17-4b99-81b8-fed8fe3998d5.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="0x8D7A9A7C460F06C" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 04 Feb 2020 19:23:51 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scripts/a/ai.0.js" path="/scripts/a/ai.0.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors_@broken/%resources%/recorded-artifacts/0f2f0751-da19-4382-bb3e-5eb751e6d775.zip"
+    recordedResponseCode="200" responseSize="96705"
+    serverUid="az416426.vo.msecnd.net" slaProfileEnabled="false"
+    uid="5248d987-ef4e-4293-9150-5de1c6bef298" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3b3524e3-18d6-4104-b339-93ac5e734a25</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3b3524e3-18d6-4104-b339-93ac5e734a25.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ud411bd.onk2stable.com/Management/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-encoding: gzip&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding&#xd;
+age: 563&#xd;
+cache-control: public, max-age=1800&#xd;
+content-md5: HdY95yzx9wIyQkVEGES+Ew==&#xd;
+content-type: application/x-javascript&#xd;
+date: Mon, 27 Jul 2020 12:22:41 GMT&#xd;
+etag: 0x8D7A9A7C460F06C&#xd;
+expires: Mon, 27 Jul 2020 12:52:41 GMT&#xd;
+last-modified: Tue, 04 Feb 2020 19:23:51 GMT&#xd;
+server: ECAcc (jnb/9DA2)&#xd;
+vary: Accept-Encoding&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: c3755c5b-b01e-0100-0a0f-64a2b1000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 22495</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/x-icon"
+    eTag="&quot;9a5dd05fdf48d61:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Mon, 22 Jun 2020 21:52:07 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/Runtime/Styles/Themes/Platinum2/K2Sites_Management/favicon.ico"
+    path="/Runtime/Styles/Themes/Platinum2/K2Sites_Management/favicon.ico"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors_@broken/%resources%/recorded-artifacts/0f2f0751-da19-4382-bb3e-5eb751e6d775.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ud411bd.onk2stable.com" slaProfileEnabled="false"
+    uid="e08d240a-ca08-44a4-960b-80ea7701cf1e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4fd1802e-f3d2-41b1-bc30-4b4e594f153e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4fd1802e-f3d2-41b1-bc30-4b4e594f153e.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://ud411bd.onk2stable.com/Management/"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value=".k2.signinstate=2Ejok_uPshVCaWO6IY045ie4-vNssGwiA10Q8JjOY3xgMi6AtyhIzTT2H3_cCI-xbIztx5wAtEakUbNd89cQAy67LeIR42PB1G7nm9ROGCH7rYtPvB6h0ybveETnJCeKpyfvp7ZfwBdB-P5mwNHVXyaT-GbNMWEzEgjE6-2Yq1pFehg57L4Zi_5k2wl521Nkf-FzuCvCJLGd8Ho4XvT-7koLPW8YQQcQzVhOTgqMSD_fFvorrKBAfKEVfRmSSC371L1W_IpwZRouiEsL6dtG8qTGMw_Ix81NZG99tBoyh7AalhPWkUd26LxnuYNuvd1wcScp25E8kC5wN_67ZxB82Pe9DztGXrXfkAD6gSaD7q574fJM1LRQ2kwxcp5SzDJc8_InEau-0KziEBvR4tqmEixpk7S1v6npb_U-vYYt1bmaFX9NHNz2uJX1ncMhRYMfElk_GCA0Z8BMkaXr7jKQH86XFb6bqiMvDVCDjp0_DojcuN8vzcoAWIp1se47Etkpi5Z167JWPHHa03d-meNLhauJkSF4OZCRPeZeGEWmmxHqiMGqPKaKaMt4N673EjuXh7GIsqxVIJ0WSz94KVjQxYY_46QwWSnOfQOmWaFEhkU7vq36TnpzAd03dFRKL62t7Hc35TmYNqJA4MhSTP5-2CxyWfPDYbE_lUzaHCATgXsS4MkxQrnW8xpiDw6-r1Jb0K6KiEb5FSFX0WoQErFHAX3nobCAnRlaLugWkpNAnonp_u81nPEk6Iz234t_5UPTbpIdtkgcMFmA2LjYr56CnwVdiTVQvkf34cxrizJ3cu1purBj6V_pn_G5g1uf3iBw41D-BkHkqwhuo7qScWrBIItgR8qCY5uJ9MDlGd5UT2jnCty2Kuv_GJO9EHo_tyEnc2kF4wiL848XTh3lMcIznfKl_3cxgmkilIbkTKAWhHIf74ZD3jI0eh8bfViEbY1VFTGMAt7z-L3LTpuEzcHjgNSIX6SjIb9CKTJVNUXzubnmm50Gk1d59iBcduaoc3OOUNlhh33qHFHxAFC_VHTCfau9AukWcdWUqTu_eoHhyBGM4eSE6ZNTOxQ_txnSw0-DwiYUBzDkDZIzg1J-kXr-0at5LSMRbI2YysQEeePwWyPy56Q3Gjida5FA_l8tciaaHG-irZheZuEsZ5t4qkA6WVkC7zkbZb7-BKRt1UzrAugbNnrvhyD6zKy1d390DDuFqqtB4MJhnIdqZ9Bjt1u_WC2fseme9V8ljHTMjIuc-rXSafNFsPZ88mLZIx5vkhqh-_u7ajkXApt3nBwWtGP6BmYBH0al49OSiIOJUinFO1h4oaedc4ce6OaG6SXqdtUm_UPkmIbonfHnOJiHhIq0AUpHVw9bRGmBxyWD7se9ENSPK_Rr2YuQDO5h8Gt10cquFE_roYZianLDvJXisfpS_S-LL7I-dFnKA1bahyNYKgDA6FUqXAxvL2blMRakjyNbvc4XHWB7VCD2PwlDWBAWPuBxY1Pszf6NxWeGi-v0-EijEwS9fmj4DqNLbjBDsXSWWd7W3uM4x5wrzvc4pu7BGC1XQ3Tjz3QdAKO9CKcgF2l6paz9AfvY-CGrMyaINkLX18yLNY0c-4zhXkVtL26ED1fujg9TaRJZzOKr3xrhQ6xjLLeqJXZMoql6w4_3kRZ3XSNU8UL1WoGozDtloeld3mVn4dqXjgudrtJLVoL8NYk8PWH6doL61aM4hoGRgmzCOfLaT-GKhfk5-Bht1ZkL60L3JqI0qI8vyLUwVQZNpwb22OLdQeH2yQepaLk9cb4PVhBtn2hNKxwO4ERCFMUCg5npy23CDqg00XbJ8jckf1mIZFsGIaMbZkjBvBfq0Xz39x8PJ_L7ATxpPTFUeerRWdIB7eO_QO_BCi7tOkmM67I7WDkjUbD257jSWFvFsFqehHk8hKe4G-_9CxRaat3z24sWRmlvyexAytAhQ5ZTJtTyS7PUORNWubMouv8EAHFOn45s7_mrbTKm8u13lYiwRBXgQ6N57YziEhotw5CNV6JJ0Qaa7TEiT1LMhnZ0nsrcLMnh475dSVN-7zLSEczkxlwzh6Dz0a_KtzQ1-lzHEF6USx0aIte3-02bI-HIXiCAcK_Jx18TXmyfRSfXYlZ0-meAbZhRo4X652Zwmgs4oAvzrg1OAjHPIwWkdmuwS9K2kJS0Q4YW2CxZicc9ixDNCb3CTkqd3dTu4S7AZoAYjCunZNgiGNAt3InH1WMvsYQgKcS65XtbK08aYfoZ-MibaT2BCEqeiUG73AioLwcF2j50VWZb1xTtuU1h-jQW2OrGyZv6dUUG9vhaJ1E1z819Teefh5fLpWxHMhM6RGqGD7TNgYZdF0mhH_vJKQrcwB-Sz9FASIwMgd4f4E8tirfqjEzro1ahHZfZfdK-9Skqb3MOqypAuC1kvOsyXVA1HZqT3pr-uX2RWXhjhDA_MnLZfExNKzubP0N2Ndjg-gBFLF7bq811S72ZACJIzcA29wyf; ai_user=68gbe|2020-07-27T12:22:41.692Z"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: max-age=25920000&#xd;
+content-type: image/x-icon&#xd;
+last-modified: Mon, 22 Jun 2020 21:52:07 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "9a5dd05fdf48d61:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ua-compatible: IE=11,IE=10,IE=9,IE=8&#xd;
+p3p: CP='NON DSP COR'&#xd;
+x-content-type-options: NoSniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+x-xss-protection: 1&#xd;
+access-control-allow-origin: *&#xd;
+server: &#xd;
+x-powered-by: &#xd;
+k2environment: UD411BD.onk2stable.com&#xd;
+date: Mon, 27 Jul 2020 12:22:41 GMT&#xd;
+content-length: 318</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

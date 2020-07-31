@@ -1,0 +1,59 @@
+<http-page executeResourcesDynamically="false"
+    name="/Management/SourceCode.Forms.Controls.Web.ControlPack.AppSwitcherHandler.handle"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh/%resources%/recorded-artifacts/6b509077-d7d3-4a67-9972-8a141df0c513.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6b509077-d7d3-4a67-9972-8a141df0c513">
+    <embedded-action>2b6941b4-8673-4044-9645-e191727a2d68</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_bb7bb7a7-11f6-42ac-99c0-e2ae16ce3dfd.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/Management/SourceCode.Forms.Controls.Web.ControlPack.AppSwitcherHandler.handle"
+    path="/Management/SourceCode.Forms.Controls.Web.ControlPack.AppSwitcherHandler.handle"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh/%resources%/recorded-artifacts/6b509077-d7d3-4a67-9972-8a141df0c513.zip"
+    recordedResponseCode="200" responseSize="52"
+    serverUid="ud411bd.onk2stable.com" slaProfileEnabled="false"
+    uid="2b6941b4-8673-4044-9645-e191727a2d68" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_346d97e5-bfe5-4b3f-89ed-fa9454c7dc81.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_346d97e5-bfe5-4b3f-89ed-fa9454c7dc81.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="Method"
+        recordRawValue="GETAUTHORIZEDSITES" separator="="
+        value="GETAUTHORIZEDSITES" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="CurrentApp"
+        recordRawValue="Management" separator="=" value="Management" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ud411bd.onk2stable.com/Management/"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value=".k2.signinstate=2Ejok_uPshVCaWO6IY045ie4-vNssGwiA10Q8JjOY3xgMi6AtyhIzTT2H3_cCI-xbIztx5wAtEakUbNd89cQAy67LeIR42PB1G7nm9ROGCH7rYtPvB6h0ybveETnJCeKpyfvp7ZfwBdB-P5mwNHVXyaT-GbNMWEzEgjE6-2Yq1pFehg57L4Zi_5k2wl521Nkf-FzuCvCJLGd8Ho4XvT-7koLPW8YQQcQzVhOTgqMSD_fFvorrKBAfKEVfRmSSC371L1W_IpwZRouiEsL6dtG8qTGMw_Ix81NZG99tBoyh7AalhPWkUd26LxnuYNuvd1wcScp25E8kC5wN_67ZxB82Pe9DztGXrXfkAD6gSaD7q574fJM1LRQ2kwxcp5SzDJc8_InEau-0KziEBvR4tqmEixpk7S1v6npb_U-vYYt1bmaFX9NHNz2uJX1ncMhRYMfElk_GCA0Z8BMkaXr7jKQH86XFb6bqiMvDVCDjp0_DojcuN8vzcoAWIp1se47Etkpi5Z167JWPHHa03d-meNLhauJkSF4OZCRPeZeGEWmmxHqiMGqPKaKaMt4N673EjuXh7GIsqxVIJ0WSz94KVjQxYY_46QwWSnOfQOmWaFEhkU7vq36TnpzAd03dFRKL62t7Hc35TmYNqJA4MhSTP5-2CxyWfPDYbE_lUzaHCATgXsS4MkxQrnW8xpiDw6-r1Jb0K6KiEb5FSFX0WoQErFHAX3nobCAnRlaLugWkpNAnonp_u81nPEk6Iz234t_5UPTbpIdtkgcMFmA2LjYr56CnwVdiTVQvkf34cxrizJ3cu1purBj6V_pn_G5g1uf3iBw41D-BkHkqwhuo7qScWrBIItgR8qCY5uJ9MDlGd5UT2jnCty2Kuv_GJO9EHo_tyEnc2kF4wiL848XTh3lMcIznfKl_3cxgmkilIbkTKAWhHIf74ZD3jI0eh8bfViEbY1VFTGMAt7z-L3LTpuEzcHjgNSIX6SjIb9CKTJVNUXzubnmm50Gk1d59iBcduaoc3OOUNlhh33qHFHxAFC_VHTCfau9AukWcdWUqTu_eoHhyBGM4eSE6ZNTOxQ_txnSw0-DwiYUBzDkDZIzg1J-kXr-0at5LSMRbI2YysQEeePwWyPy56Q3Gjida5FA_l8tciaaHG-irZheZuEsZ5t4qkA6WVkC7zkbZb7-BKRt1UzrAugbNnrvhyD6zKy1d390DDuFqqtB4MJhnIdqZ9Bjt1u_WC2fseme9V8ljHTMjIuc-rXSafNFsPZ88mLZIx5vkhqh-_u7ajkXApt3nBwWtGP6BmYBH0al49OSiIOJUinFO1h4oaedc4ce6OaG6SXqdtUm_UPkmIbonfHnOJiHhIq0AUpHVw9bRGmBxyWD7se9ENSPK_Rr2YuQDO5h8Gt10cquFE_roYZianLDvJXisfpS_S-LL7I-dFnKA1bahyNYKgDA6FUqXAxvL2blMRakjyNbvc4XHWB7VCD2PwlDWBAWPuBxY1Pszf6NxWeGi-v0-EijEwS9fmj4DqNLbjBDsXSWWd7W3uM4x5wrzvc4pu7BGC1XQ3Tjz3QdAKO9CKcgF2l6paz9AfvY-CGrMyaINkLX18yLNY0c-4zhXkVtL26ED1fujg9TaRJZzOKr3xrhQ6xjLLeqJXZMoql6w4_3kRZ3XSNU8UL1WoGozDtloeld3mVn4dqXjgudrtJLVoL8NYk8PWH6doL61aM4hoGRgmzCOfLaT-GKhfk5-Bht1ZkL60L3JqI0qI8vyLUwVQZNpwb22OLdQeH2yQepaLk9cb4PVhBtn2hNKxwO4ERCFMUCg5npy23CDqg00XbJ8jckf1mIZFsGIaMbZkjBvBfq0Xz39x8PJ_L7ATxpPTFUeerRWdIB7eO_QO_BCi7tOkmM67I7WDkjUbD257jSWFvFsFqehHk8hKe4G-_9CxRaat3z24sWRmlvyexAytAhQ5ZTJtTyS7PUORNWubMouv8EAHFOn45s7_mrbTKm8u13lYiwRBXgQ6N57YziEhotw5CNV6JJ0Qaa7TEiT1LMhnZ0nsrcLMnh475dSVN-7zLSEczkxlwzh6Dz0a_KtzQ1-lzHEF6USx0aIte3-02bI-HIXiCAcK_Jx18TXmyfRSfXYlZ0-meAbZhRo4X652Zwmgs4oAvzrg1OAjHPIwWkdmuwS9K2kJS0Q4YW2CxZicc9ixDNCb3CTkqd3dTu4S7AZoAYjCunZNgiGNAt3InH1WMvsYQgKcS65XtbK08aYfoZ-MibaT2BCEqeiUG73AioLwcF2j50VWZb1xTtuU1h-jQW2OrGyZv6dUUG9vhaJ1E1z819Teefh5fLpWxHMhM6RGqGD7TNgYZdF0mhH_vJKQrcwB-Sz9FASIwMgd4f4E8tirfqjEzro1ahHZfZfdK-9Skqb3MOqypAuC1kvOsyXVA1HZqT3pr-uX2RWXhjhDA_MnLZfExNKzubP0N2Ndjg-gBFLF7bq811S72ZACJIzcA29wyf"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: no-cache&#xd;
+pragma: no-cache&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-encoding: gzip&#xd;
+expires: -1&#xd;
+vary: Accept-Encoding,Accept-Encoding&#xd;
+x-ua-compatible: IE=11,IE=10,IE=9,IE=8&#xd;
+p3p: CP='NON DSP COR'&#xd;
+x-content-type-options: NoSniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+x-xss-protection: 1&#xd;
+server: &#xd;
+x-powered-by: &#xd;
+k2environment: UD411BD.onk2stable.com&#xd;
+date: Mon, 27 Jul 2020 12:22:27 GMT&#xd;
+content-length: 158</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Retry1" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="acead806-8c2a-466d-a9ef-4dd4281a0532" weightsEnabled="false">
+    <weighted-embedded-action uid="db052fe5-3f05-44de-8bf2-7338c89a6dfb"/>
+</basic-logical-action-container>

@@ -1,0 +1,8 @@
+<http-page executeResourcesDynamically="false"
+    name="/service/update2/json" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh_1/%resources%/recorded-artifacts/1b1b7795-fe0f-44fe-bcb1-1bffcfdb5daa.zip"
+    slaProfileEnabled="false" thinkTime="2"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1b1b7795-fe0f-44fe-bcb1-1bffcfdb5daa">
+    <screenshotFileDescription>recorded-screenshots/sc_e68840ea-b566-452d-93d4-4b23aa54a374.jpg</screenshotFileDescription>
+</http-page>

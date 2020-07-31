@@ -1,0 +1,43 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/service/update2/json" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  farm/%resources%/recorded-artifacts/dfdbdbe7-1f8e-486e-ae77-71ca31efda2f.zip"
+    slaProfileEnabled="false" thinkTime="227"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="dfdbdbe7-1f8e-486e-ae77-71ca31efda2f">
+    <embedded-action>4be91ec2-dfe2-45a1-8479-9fecb3550ceb</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_c6794c4f-f749-4e85-b1a6-dcaba159896e.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  farm/%resources%/recorded-artifacts/dfdbdbe7-1f8e-486e-ae77-71ca31efda2f.zip"
+    recordedResponseCode="404" responseSize="0"
+    serverUid="login.microsoftonline.com" slaProfileEnabled="false"
+    uid="4be91ec2-dfe2-45a1-8479-9fecb3550ceb" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_266f1386-a763-4b7f-91fe-8b6aafe310f4.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="fpc=ApB-BuSyAKlLpAwA_vI5LcQ; x-ms-gateway-slice=prod; stsservicecookie=ests"/>
+    <header name="Host" value="login.microsoftonline.com"/>
+    <header name="Referer" value="https://login.microsoftonline.com/81c7f8a8-4e5f-4420-aec2-85e211cf3922/oauth2/v2.0/authorize?client_id=204e8a18-4550-4107-b8a7-212b3b7adbc3&amp;redirect_uri=https%3A%2F%2Fidentitytokenservice.k2central-dev.com%2Fsignin-aad&amp;response_type=code&amp;scope=openid%20profile%20email&amp;response_mode=form_post&amp;nonce=${nl_extracted_param_8}&amp;state=CfDJ8Eekp-TkNa9NntbvdGnYvgKq9fIN3AfAAHpCDAWYAB4xx5OzayO-UrynfPFny9ZJQ01MYgy7HM0MgTquWSsTAG5X_jSYmbLd4fSTQIE5RpnmoqaRYiMOZ93QpZZExZzW0Fbd5JDb8bcV7jRMBQZVpqzth0wWbFfqj5gRMulvrKNhm9hcVTz0APPTzlT3QGYeMltpqeqGY-tJk21_HSbQQWOdI0bLxWzH0Gd6dnOCdCWFVGmfGDb5CrE6nRxOfKDSVSQWAjP5ZWLTrT0AOhxVxuoiMbbgxpeWLKUh4pGMZBLs8ztXsese2EsbQrzQ51YM8vx6qA5kqibt0fx_xqAZQBq-9hBbV4_EYQTZkH_t1vDNnGCxFPZsYNsM0_cuWeXss3oDjaWGTL7lzyNM_gwo8PghDo4CTAwoRk5Fmk92cnhq2hZNgH-MAW9OOTlT9IuV9Q8OhvhL_Yqfrco9CC8h-GxN82drir3fnyzRwldI93rF6OhvM9sy5SNaI4AF1AZlrhC1IYS7q-GkTbi9124SnJwmM3RIGShV_COBXLGGi3gFomgL9PGuUC7EblJKnsFmFGNP9B-o2SEDWBVZYiTLB2ptYmvnY9TJ4xzkOQIGB9CsMbJb87b-BFDkhMDMu632mlYvPFj2s1TqWJv_shXBb1Rnpu4LzXFAH6T7wkzZPo0U6TpmeV1umveE58mzrUlHPC3P6FsQaszfG4BN0RHyv11W1SvqdsKfvpVut2z1Kft26yijdSQLh0FHY86GlFSBqkHmLwtd6DOP-HsNzMmSCODVpIBiwoZ1Vl7y9KOg3emXG1oauseEfAFsE6-YdAhOI0l5x-5sf9n6dDe06-ONjjH48r0osXBt1_DdDl-p-sU8uMhPqEsRsstDi4ZzZEWKMFZSnb_5GaGKh_68OSyt5FecbsG1cYeBdAI-HOJD2YNhYnDpn3R9U-fEJLri1J5Ints8BGVnt0aDQC3pw87SCWOPXDm57AXEvucdHP5yd32t02v9OvlV7OMkgxmmEYlcrwehOU2ZWqdHKVZLkqMjg1p8-4NI2p-Ab8saAk_OT0ffmpALSg7RU-VKbUL0isTkFmjGJEe0TdHCf9emrcI2yjTuDwSCs_n5W9fkyAjLWTvZxQjjXmmhFRy6PEaz8jLHLWh4dtUdkGh-p4d3saHJx-LC0Kx87Z7OlWA5GVYDMlyoWxyJaAjblHv07jCd3MFDOtO24tEzKjaPFZFvYZOOKHlcrx4dppLzzp8SUIq2AWkYMDpU8DcWAGUmsYoiuRcNkKo29zn_-Z86975Le4oERrmoyrr1D-A3CrhMV9ZCmXt-Br6MUzAvdg3qQTWPGypWDZj1uXPq6tNPcUMooces06Ek4iiFQM-3Y2DaO-QFWsxZLgFjWvCZTTqyahxfejWMim-lFakb4NIXtW382AAqJKp_ImzxP1N-7FOZKmFyfnDNtCDw2t8B6IViX9JGqmBcll2yAyF71nEs6TUNE7BC_tGBuB__RS4E9-18y0dq43IHB0CWpkSBJMEoeBSqs-yrWZxjHqDh_jUFfQ3pmbpXl-HIKjjQloEXqXXNUn6Z0skL1md1cITGSYmDIpNjC6JGE32Kg5EcyYE1_uslA92iT1P2hWMsXVeUUNk8awJO-gdz5fPqE_4SzYhEu1iEubKA1MvnQDZlOfdeWJcMc7RksbS3zJ3rJeeo5TopRM-hak2qZ2pfXQdyH3qBwa4IbX8AZA&amp;x-client-SKU=ID_NETSTANDARD2_0&amp;x-client-ver=5.5.0.0"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 404 Not Found&#xd;
+Cache-Control: private&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+x-ms-request-id: 090a946a-1968-40ca-8ca1-2dcc32125400&#xd;
+x-ms-ests-server: 2.1.10877.10 - AMS2 ProdSlices&#xd;
+Referrer-Policy: strict-origin-when-cross-origin&#xd;
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"&#xd;
+Set-Cookie: x-ms-gateway-slice=prod; path=/; SameSite=None; secure; HttpOnly&#xd;
+Date: Mon, 27 Jul 2020 12:21:12 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

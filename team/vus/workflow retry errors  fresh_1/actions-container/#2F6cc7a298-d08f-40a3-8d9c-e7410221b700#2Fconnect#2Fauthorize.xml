@@ -1,0 +1,185 @@
+<http-page executeResourcesDynamically="false"
+    name="/6cc7a298-d08f-40a3-8d9c-e7410221b700/connect/authorize"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh_1/%resources%/recorded-artifacts/cc54a028-1fb3-4e78-8afe-c40c019d5951.zip"
+    slaProfileEnabled="false" thinkTime="11340"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="cc54a028-1fb3-4e78-8afe-c40c019d5951">
+    <embedded-action>c133f66e-5cf2-4726-99c7-69cab4357902</embedded-action>
+    <embedded-action>2f891a12-cc78-4db4-95b8-158057ad782b</embedded-action>
+    <embedded-action>310a28c0-ceba-4de1-b34c-99ef5b79d133</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_d103e507-7d71-41da-b1c9-86ac995f5512.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/6cc7a298-d08f-40a3-8d9c-e7410221b700/connect/authorize"
+    path="/6cc7a298-d08f-40a3-8d9c-e7410221b700/connect/authorize"
+    postCharset="" postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh_1/%resources%/recorded-artifacts/cc54a028-1fb3-4e78-8afe-c40c019d5951.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="identitytokenservice.k2central-dev.com"
+    slaProfileEnabled="false" uid="c133f66e-5cf2-4726-99c7-69cab4357902" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_c133f66e-5cf2-4726-99c7-69cab4357902.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="client_id"
+        recordRawValue="idt.uahE2WBVjLb27vEkK4mnpy%2BIFRXUdCA6hR6%2Fcbwuk84%3D"
+        separator="=" value="${client_id}" valueMode="USE_VALUE">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="1"
+            extractTypeAdv="1" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_4"
+            refererUid="5e6ad31d-a6d9-4329-9ed6-19421b8b18e0"
+            regExp="\?client_id=([^&amp;]*?)&amp;"
+            regExpAdv="\?client_id=([^&amp;]*?)&amp;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="bc8e235d-f6f3-46df-9fbf-e7308dfe7ebe"
+            valueEncoded="true" valueUrlEncoded="true" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="redirect_uri"
+        recordRawValue="https%3A%2F%2Fud411bd.onk2stable.com%2FManagement%2Faccount%2Fsignin-oidc"
+        separator="="
+        value="https://ud411bd.onk2stable.com/Management/account/signin-oidc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="response_type"
+        recordRawValue="id_token" separator="=" value="id_token" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="scope"
+        recordRawValue="openid%20profile%20email" separator="="
+        value="openid profile email" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="state"
+        recordRawValue="OpenIdConnect.AuthenticationProperties%3DWos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA"
+        separator="="
+        value="OpenIdConnect.AuthenticationProperties=Wos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="response_mode"
+        recordRawValue="form_post" separator="=" value="form_post" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nonce"
+        recordRawValue="637314492294835083.NjBkYTE2MjQtMDRlMy00YjNlLWI0NWMtMTI0MzYyOGY1MTU1OTYzN2EwOTItYzg4Yy00MDcyLTllZTQtNzNlNWZjZDUzYTVj"
+        separator="=" value="&amp;nonce=([^&amp;]*?)&amp;" valueMode="USE_VALUE">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="1"
+            extractTypeAdv="1" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name="nonce"
+            refererUid="5e6ad31d-a6d9-4329-9ed6-19421b8b18e0"
+            regExp="&amp;nonce=([^&amp;]*?)&amp;"
+            regExpAdv="&amp;nonce=([^&amp;]*?)&amp;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="feda6c58-1584-46ab-9824-ea373e0de279"
+            valueEncoded="true" valueUrlEncoded="true" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="x-client-SKU"
+        recordRawValue="ID_NET461" separator="=" value="ID_NET461" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x-client-ver"
+        recordRawValue="6.5.0.0" separator="=" value="6.5.0.0" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="identitytokenservice.k2central-dev.com"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="none"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Location: https://identitytokenservice.k2central-dev.com/6cc7a298-d08f-40a3-8d9c-e7410221b700/Account/Login?ReturnUrl=%2F6cc7a298-d08f-40a3-8d9c-e7410221b700%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Didt.uahE2WBVjLb27vEkK4mnpy%252BIFRXUdCA6hR6%252Fcbwuk84%253D%26redirect_uri%3Dhttps%253A%252F%252Fud411bd.onk2stable.com%252FManagement%252Faccount%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520email%26state%3DOpenIdConnect.AuthenticationProperties%253DWos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA%26response_mode%3Dform_post%26nonce%3D637314492294835083.NjBkYTE2MjQtMDRlMy00YjNlLWI0NWMtMTI0MzYyOGY1MTU1OTYzN2EwOTItYzg4Yy00MDcyLTllZTQtNzNlNWZjZDUzYTVj%26x-client-SKU%3DID_NET461%26x-client-ver%3D6.5.0.0&#xd;
+Request-Context: appId=cid-v1:6d247f64-fd3c-43fe-a41e-800c9ea31e00&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Set-Cookie: ARRAffinity=67658d3126ddf9428e4e2f36f09e574385ff742ffab2b8dcad942ecc1f8fdb67;Path=/;HttpOnly;Domain=identitytokenservice.k2central-dev.com&#xd;
+Date: Mon, 27 Jul 2020 12:20:58 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/6cc7a298-d08f-40a3-8d9c-e7410221b700/Account/Login"
+    path="/6cc7a298-d08f-40a3-8d9c-e7410221b700/Account/Login"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh_1/%resources%/recorded-artifacts/cc54a028-1fb3-4e78-8afe-c40c019d5951.zip"
+    recordedResponseCode="302"
+    refererUid="c133f66e-5cf2-4726-99c7-69cab4357902" responseSize="0"
+    serverUid="identitytokenservice.k2central-dev.com"
+    slaProfileEnabled="false" uid="2f891a12-cc78-4db4-95b8-158057ad782b" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_2f891a12-cc78-4db4-95b8-158057ad782b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ReturnUrl"
+        recordRawValue="%2F6cc7a298-d08f-40a3-8d9c-e7410221b700%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Didt.uahE2WBVjLb27vEkK4mnpy%252BIFRXUdCA6hR6%252Fcbwuk84%253D%26redirect_uri%3Dhttps%253A%252F%252Fud411bd.onk2stable.com%252FManagement%252Faccount%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520email%26state%3DOpenIdConnect.AuthenticationProperties%253DWos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA%26response_mode%3Dform_post%26nonce%3D637314492294835083.NjBkYTE2MjQtMDRlMy00YjNlLWI0NWMtMTI0MzYyOGY1MTU1OTYzN2EwOTItYzg4Yy00MDcyLTllZTQtNzNlNWZjZDUzYTVj%26x-client-SKU%3DID_NET461%26x-client-ver%3D6.5.0.0"
+        separator="="
+        value="/6cc7a298-d08f-40a3-8d9c-e7410221b700/connect/authorize/callback?client_id=idt.uahE2WBVjLb27vEkK4mnpy%2BIFRXUdCA6hR6%2Fcbwuk84%3D&amp;redirect_uri=https%3A%2F%2Fud411bd.onk2stable.com%2FManagement%2Faccount%2Fsignin-oidc&amp;response_type=id_token&amp;scope=openid%20profile%20email&amp;state=OpenIdConnect.AuthenticationProperties%3DWos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA&amp;response_mode=form_post&amp;nonce=637314492294835083.NjBkYTE2MjQtMDRlMy00YjNlLWI0NWMtMTI0MzYyOGY1MTU1OTYzN2EwOTItYzg4Yy00MDcyLTllZTQtNzNlNWZjZDUzYTVj&amp;x-client-SKU=ID_NET461&amp;x-client-ver=6.5.0.0" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="ARRAffinity=67658d3126ddf9428e4e2f36f09e574385ff742ffab2b8dcad942ecc1f8fdb67"/>
+    <header name="Host" value="identitytokenservice.k2central-dev.com"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="none"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Location: /6cc7a298-d08f-40a3-8d9c-e7410221b700/External/Challenge?ClientId=204e8a18-4550-4107-b8a7-212b3b7adbc3&amp;provider=aad&amp;returnUrl=%2F6cc7a298-d08f-40a3-8d9c-e7410221b700%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Didt.uahE2WBVjLb27vEkK4mnpy%252BIFRXUdCA6hR6%252Fcbwuk84%253D%26redirect_uri%3Dhttps%253A%252F%252Fud411bd.onk2stable.com%252FManagement%252Faccount%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520email%26state%3DOpenIdConnect.AuthenticationProperties%253DWos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA%26response_mode%3Dform_post%26nonce%3D637314492294835083.NjBkYTE2MjQtMDRlMy00YjNlLWI0NWMtMTI0MzYyOGY1MTU1OTYzN2EwOTItYzg4Yy00MDcyLTllZTQtNzNlNWZjZDUzYTVj%26x-client-SKU%3DID_NET461%26x-client-ver%3D6.5.0.0&#xd;
+Request-Context: appId=cid-v1:6d247f64-fd3c-43fe-a41e-800c9ea31e00&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Mon, 27 Jul 2020 12:20:59 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/6cc7a298-d08f-40a3-8d9c-e7410221b700/External/Challenge"
+    path="/6cc7a298-d08f-40a3-8d9c-e7410221b700/External/Challenge"
+    postCharset="" postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh_1/%resources%/recorded-artifacts/cc54a028-1fb3-4e78-8afe-c40c019d5951.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="identitytokenservice.k2central-dev.com"
+    slaProfileEnabled="false" uid="310a28c0-ceba-4de1-b34c-99ef5b79d133" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_310a28c0-ceba-4de1-b34c-99ef5b79d133.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ClientId"
+        recordRawValue="204e8a18-4550-4107-b8a7-212b3b7adbc3"
+        separator="=" value="204e8a18-4550-4107-b8a7-212b3b7adbc3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="provider"
+        recordRawValue="aad" separator="=" value="aad" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="returnUrl"
+        recordRawValue="%2F6cc7a298-d08f-40a3-8d9c-e7410221b700%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Didt.uahE2WBVjLb27vEkK4mnpy%252BIFRXUdCA6hR6%252Fcbwuk84%253D%26redirect_uri%3Dhttps%253A%252F%252Fud411bd.onk2stable.com%252FManagement%252Faccount%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520email%26state%3DOpenIdConnect.AuthenticationProperties%253DWos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA%26response_mode%3Dform_post%26nonce%3D637314492294835083.NjBkYTE2MjQtMDRlMy00YjNlLWI0NWMtMTI0MzYyOGY1MTU1OTYzN2EwOTItYzg4Yy00MDcyLTllZTQtNzNlNWZjZDUzYTVj%26x-client-SKU%3DID_NET461%26x-client-ver%3D6.5.0.0"
+        separator="="
+        value="/6cc7a298-d08f-40a3-8d9c-e7410221b700/connect/authorize/callback?client_id=idt.uahE2WBVjLb27vEkK4mnpy%2BIFRXUdCA6hR6%2Fcbwuk84%3D&amp;redirect_uri=https%3A%2F%2Fud411bd.onk2stable.com%2FManagement%2Faccount%2Fsignin-oidc&amp;response_type=id_token&amp;scope=openid%20profile%20email&amp;state=OpenIdConnect.AuthenticationProperties%3DWos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA&amp;response_mode=form_post&amp;nonce=637314492294835083.NjBkYTE2MjQtMDRlMy00YjNlLWI0NWMtMTI0MzYyOGY1MTU1OTYzN2EwOTItYzg4Yy00MDcyLTllZTQtNzNlNWZjZDUzYTVj&amp;x-client-SKU=ID_NET461&amp;x-client-ver=6.5.0.0" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="ARRAffinity=67658d3126ddf9428e4e2f36f09e574385ff742ffab2b8dcad942ecc1f8fdb67"/>
+    <header name="Host" value="identitytokenservice.k2central-dev.com"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="none"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Location: https://login.microsoftonline.com/81c7f8a8-4e5f-4420-aec2-85e211cf3922/oauth2/v2.0/authorize?client_id=204e8a18-4550-4107-b8a7-212b3b7adbc3&amp;redirect_uri=https%3A%2F%2Fidentitytokenservice.k2central-dev.com%2Fsignin-aad&amp;response_type=code&amp;scope=openid%20profile%20email&amp;response_mode=form_post&amp;nonce=637314492600345855.NzJjNjUyYWMtYTJjOS00NjQzLWE4ZTktMTZlMDA2OTVkMGFmNjM1YjdkMzUtMjdkZC00ODJkLThjZDktM2NhZDg4YzI5ZTI4&amp;state=CfDJ8Eekp-TkNa9NntbvdGnYvgKq9fIN3AfAAHpCDAWYAB4xx5OzayO-UrynfPFny9ZJQ01MYgy7HM0MgTquWSsTAG5X_jSYmbLd4fSTQIE5RpnmoqaRYiMOZ93QpZZExZzW0Fbd5JDb8bcV7jRMBQZVpqzth0wWbFfqj5gRMulvrKNhm9hcVTz0APPTzlT3QGYeMltpqeqGY-tJk21_HSbQQWOdI0bLxWzH0Gd6dnOCdCWFVGmfGDb5CrE6nRxOfKDSVSQWAjP5ZWLTrT0AOhxVxuoiMbbgxpeWLKUh4pGMZBLs8ztXsese2EsbQrzQ51YM8vx6qA5kqibt0fx_xqAZQBq-9hBbV4_EYQTZkH_t1vDNnGCxFPZsYNsM0_cuWeXss3oDjaWGTL7lzyNM_gwo8PghDo4CTAwoRk5Fmk92cnhq2hZNgH-MAW9OOTlT9IuV9Q8OhvhL_Yqfrco9CC8h-GxN82drir3fnyzRwldI93rF6OhvM9sy5SNaI4AF1AZlrhC1IYS7q-GkTbi9124SnJwmM3RIGShV_COBXLGGi3gFomgL9PGuUC7EblJKnsFmFGNP9B-o2SEDWBVZYiTLB2ptYmvnY9TJ4xzkOQIGB9CsMbJb87b-BFDkhMDMu632mlYvPFj2s1TqWJv_shXBb1Rnpu4LzXFAH6T7wkzZPo0U6TpmeV1umveE58mzrUlHPC3P6FsQaszfG4BN0RHyv11W1SvqdsKfvpVut2z1Kft26yijdSQLh0FHY86GlFSBqkHmLwtd6DOP-HsNzMmSCODVpIBiwoZ1Vl7y9KOg3emXG1oauseEfAFsE6-YdAhOI0l5x-5sf9n6dDe06-ONjjH48r0osXBt1_DdDl-p-sU8uMhPqEsRsstDi4ZzZEWKMFZSnb_5GaGKh_68OSyt5FecbsG1cYeBdAI-HOJD2YNhYnDpn3R9U-fEJLri1J5Ints8BGVnt0aDQC3pw87SCWOPXDm57AXEvucdHP5yd32t02v9OvlV7OMkgxmmEYlcrwehOU2ZWqdHKVZLkqMjg1p8-4NI2p-Ab8saAk_OT0ffmpALSg7RU-VKbUL0isTkFmjGJEe0TdHCf9emrcI2yjTuDwSCs_n5W9fkyAjLWTvZxQjjXmmhFRy6PEaz8jLHLWh4dtUdkGh-p4d3saHJx-LC0Kx87Z7OlWA5GVYDMlyoWxyJaAjblHv07jCd3MFDOtO24tEzKjaPFZFvYZOOKHlcrx4dppLzzp8SUIq2AWkYMDpU8DcWAGUmsYoiuRcNkKo29zn_-Z86975Le4oERrmoyrr1D-A3CrhMV9ZCmXt-Br6MUzAvdg3qQTWPGypWDZj1uXPq6tNPcUMooces06Ek4iiFQM-3Y2DaO-QFWsxZLgFjWvCZTTqyahxfejWMim-lFakb4NIXtW382AAqJKp_ImzxP1N-7FOZKmFyfnDNtCDw2t8B6IViX9JGqmBcll2yAyF71nEs6TUNE7BC_tGBuB__RS4E9-18y0dq43IHB0CWpkSBJMEoeBSqs-yrWZxjHqDh_jUFfQ3pmbpXl-HIKjjQloEXqXXNUn6Z0skL1md1cITGSYmDIpNjC6JGE32Kg5EcyYE1_uslA92iT1P2hWMsXVeUUNk8awJO-gdz5fPqE_4SzYhEu1iEubKA1MvnQDZlOfdeWJcMc7RksbS3zJ3rJeeo5TopRM-hak2qZ2pfXQdyH3qBwa4IbX8AZA&amp;x-client-SKU=ID_NETSTANDARD2_0&amp;x-client-ver=5.5.0.0&#xd;
+Set-Cookie: .AspNetCore.OpenIdConnect.Nonce.CfDJ8Eekp-TkNa9NntbvdGnYvgJAmjDh20jq4emM0BT_QxbAMEdWh8SgZRAgXlXC_dFQhbU9mawN2mfhgvqYHcrzWEizqHtK7iMlQKWbTzvt6Gc_leio7A3v5dDoSGnwXpI_DkVp8gTBGe792TY2pDfeyO2UApuW-3-tKF5_s40v2RfL1-RCtEdozYTZopPUptuHKz_CDpwEpxo7dsSqJan-E6SUK5wvf8Hs0dWWKA8mwO5JA3Tqd5LMwtctKedGcC3HINBamwhRy4XeH_2HKQ6D7zA=N; expires=Mon, 27 Jul 2020 12:36:00 GMT; path=/signin-aad; secure; samesite=none; httponly&#xd;
+Set-Cookie: .AspNetCore.Correlation.aad.cU-Tdek715SnibDkYv5ziux-8sSuXFZ3g29BPemUjsY=N; expires=Mon, 27 Jul 2020 12:36:00 GMT; path=/signin-aad; secure; samesite=none; httponly&#xd;
+Request-Context: appId=cid-v1:6d247f64-fd3c-43fe-a41e-800c9ea31e00&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Mon, 27 Jul 2020 12:20:59 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

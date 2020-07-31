@@ -1,0 +1,18 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Signin" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="f2a3c371-29cd-4708-aabb-83e97fdf390f" weightsEnabled="false">
+    <weighted-embedded-action uid="04ff1211-8916-4b2e-b7a4-e2108e61e35e"/>
+    <weighted-embedded-action uid="16867df5-e9d1-412a-8ef0-8c688caecb67"/>
+    <weighted-embedded-action uid="56cf968b-a43d-447d-be87-478b36ece3df"/>
+    <weighted-embedded-action uid="ae8859aa-c45b-4962-8639-0ae6e9ea5073"/>
+    <weighted-embedded-action uid="0034f49e-d526-4620-a593-ec1a70768d5b"/>
+    <weighted-embedded-action uid="22b15848-8b75-44bb-8886-67c7a3c22955"/>
+    <weighted-embedded-action uid="32484b9d-edd5-4af9-acfb-f260c2b2533a"/>
+    <weighted-embedded-action uid="df272ddf-9d58-4f99-917d-16df44edb6aa"/>
+    <weighted-embedded-action uid="b706a9b0-3a56-4c6a-998d-c26af75eafc0"/>
+    <weighted-embedded-action uid="ccd8fe6f-d4ba-4edc-8ca4-64541a2b62a0"/>
+    <weighted-embedded-action uid="43887f64-2204-4208-88f2-7bbb81467b3d"/>
+    <weighted-embedded-action uid="0f2f0751-da19-4382-bb3e-5eb751e6d775"/>
+</basic-logical-action-container>

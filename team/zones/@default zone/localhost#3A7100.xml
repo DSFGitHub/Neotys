@@ -1,0 +1,35 @@
+<lg-host citrixSupport="false" hostname="localhost:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="false"
+    uid="e81d94fe-ddb5-46e3-a9ae-6727aeee6140" version="7.4.0;build=20200528-24">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Microsoft Hyper-V Network Adapter #2"
+        enabled="false" isLoopBack="false" name="eth1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="pt-cntrl-win16.pt.local">
+            <ip value="10.1.1.102"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:341c:78e9:ae0f:9eaa%eth1">
+            <ip value="fe80:0:0:0:341c:78e9:ae0f:9eaa%eth1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Microsoft Hyper-V Network Adapter"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="pt-cntrl-win16.pt.local">
+            <ip value="10.1.20.19"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

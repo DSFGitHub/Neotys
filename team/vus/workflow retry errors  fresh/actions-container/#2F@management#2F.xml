@@ -1,0 +1,86 @@
+<http-page executeResourcesDynamically="false" name="/Management/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh/%resources%/recorded-artifacts/abd6265e-e575-4346-8b08-fbb20e707ead.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="abd6265e-e575-4346-8b08-fbb20e707ead">
+    <embedded-action>ac4a76de-56c4-4209-8f2c-8a14ec9d740f</embedded-action>
+    <embedded-action>959181f8-83a4-4256-b213-9f2192e39426</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_169936b5-67bc-4bfd-a988-97118018a0f3.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/Management/" path="/Management/" postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh/%resources%/recorded-artifacts/abd6265e-e575-4346-8b08-fbb20e707ead.zip"
+    recordedResponseCode="302" responseSize="2109"
+    serverUid="ud411bd.onk2stable.com" slaProfileEnabled="false"
+    uid="ac4a76de-56c4-4209-8f2c-8a14ec9d740f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4366fd68-c985-4b8d-9e5b-7a0c170062ea.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4366fd68-c985-4b8d-9e5b-7a0c170062ea.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+content-type: text/html; charset=utf-8&#xd;
+location: https://ud411bd.onk2stable.com/Management/account/login?ReturnUrl=https%3a%2f%2fud411bd.onk2stable.com%3a443%2fManagement%2f&#xd;
+vary: Accept-Encoding&#xd;
+x-ua-compatible: IE=11,IE=10,IE=9,IE=8&#xd;
+p3p: CP='NON DSP COR'&#xd;
+x-content-type-options: NoSniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+x-xss-protection: 1&#xd;
+server: &#xd;
+x-powered-by: &#xd;
+k2environment: UD411BD.onk2stable.com&#xd;
+date: Mon, 27 Jul 2020 12:20:28 GMT&#xd;
+content-length: 2109</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/Management/account/login"
+    path="/Management/account/login" postType="2"
+    recordedArtifactZipFileName="team/vus/workflow retry errors  fresh/%resources%/recorded-artifacts/abd6265e-e575-4346-8b08-fbb20e707ead.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="ud411bd.onk2stable.com" slaProfileEnabled="false"
+    uid="959181f8-83a4-4256-b213-9f2192e39426" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_959181f8-83a4-4256-b213-9f2192e39426</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c028dfad-0602-49c6-8bd2-be0a257e610c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ReturnUrl"
+        recordRawValue="https%3a%2f%2fud411bd.onk2stable.com%3a443%2fManagement%2f"
+        separator="="
+        value="https://ud411bd.onk2stable.com:443/Management/" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+location: https://identitytokenservice.k2central-dev.com/6cc7a298-d08f-40a3-8d9c-e7410221b700/connect/authorize?client_id=idt.uahE2WBVjLb27vEkK4mnpy%2BIFRXUdCA6hR6%2Fcbwuk84%3D&amp;redirect_uri=https%3A%2F%2Fud411bd.onk2stable.com%2FManagement%2Faccount%2Fsignin-oidc&amp;response_type=id_token&amp;scope=openid%20profile%20email&amp;state=OpenIdConnect.AuthenticationProperties%3DWos4Oik4_9D8d_BS1SfvpVckVSDHAOOcwMKmiQifbp7CILXmf0_yAxZYHbQ8SG9zkKPAPbwBOEcI_Vq0hkeKIRy7tF_yg0nTyFQwjnZDau4cTSbUjV8BHhUvcSG9zxmGwsDstk1LmmMBHskpqxkeh7uSfrJ9tlGrUV1Dg7A_cwjR9_C8jiEWjbgkw-Vlr39Z1LHicY-DDfu6MjzkVWM5HrdaixfkqXQ6vMt9ZhbC2FBpLTLLF6O6aq3n8qC12Qux-WdOLbxj3dl1z_GQVK0yj9b_4YqbEnWGpb5e9oG8HET1uIbjI4z5_DXorG-MolGaoUpAscHqZ5uR4TtzlQATSvMM1-qgV63ldNDVzCCU_hA&amp;response_mode=form_post&amp;nonce=637314492294835083.NjBkYTE2MjQtMDRlMy00YjNlLWI0NWMtMTI0MzYyOGY1MTU1OTYzN2EwOTItYzg4Yy00MDcyLTllZTQtNzNlNWZjZDUzYTVj&amp;x-client-SKU=ID_NET461&amp;x-client-ver=6.5.0.0&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: OpenIdConnect.nonce.llBCMrzTquxUp74xX2%2B2I8OIIZHkTRjnPIbDtI4YHTg%3D=eEtZUjhWZWFrR1ozY3JaS0JURjZyMW1KSi1Gb3IyZzlDdzlYaWpJalE0V2xJNVNKbUgzUmNHT2Zqa1ByWkR3WkhTTWw2amV3dnNyd0Z1YlZYRnZ1cElhU0FaZ1hyaGRZenEweTVWeDBkSmNlVGJqYXp2RWpYdXBTWHBtby1PMzc4RmZvZ21YLWl5ZWN6aDlVelNPNERxUVNLb2Jza3A0YTUxM3d4ZTRxLW42SXRFTk1haU5HSEN1ODZ5bUNwNWU0Y0stMjJsWEhrajhXeFNHZW80akhFUkQtRjlvOVpTd1ZxRjcxcWhRcjZ6dw%3D%3D; path=/; expires=Mon, 27-Jul-2020 12:35:29 GMT; secure; HttpOnly; SameSite=None&#xd;
+x-ua-compatible: IE=11,IE=10,IE=9,IE=8&#xd;
+p3p: CP='NON DSP COR'&#xd;
+x-content-type-options: NoSniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+x-xss-protection: 1&#xd;
+server: &#xd;
+x-powered-by: &#xd;
+k2environment: UD411BD.onk2stable.com&#xd;
+date: Mon, 27 Jul 2020 12:20:28 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

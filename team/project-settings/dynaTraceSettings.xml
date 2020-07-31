@@ -1,0 +1,4 @@
+<dynaTraceSettings dynaTraceEnabled="true" dynatraceHeader="Neoload"
+    dynatraceType="Dynatrace" logicalNamesEnabled="true" login="admin"
+    password="" port="2020" recordSessionEnabled="false" server=""
+    sessionLockingEnabled="false" ssl="false" systemName="" version="2.X"/>

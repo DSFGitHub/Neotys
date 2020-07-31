@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=POC
+project.version=8.0
+project.original.version=8.0
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.4.0
+project.id=fdf1120e-23b3-4d9a-acf4-3597e6787601
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/DSFGitHub/Neotys

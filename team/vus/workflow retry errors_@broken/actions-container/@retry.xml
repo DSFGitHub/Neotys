@@ -1,0 +1,14 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Retry" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="a823b354-04c8-4107-ab97-047c4dd9f23f" weightsEnabled="false">
+    <weighted-embedded-action uid="fec19d03-2e65-44ad-b859-aefced060ddd"/>
+    <weighted-embedded-action uid="c42c4bef-0385-4ab5-83a9-2f21b5b264b7"/>
+    <weighted-embedded-action uid="067eddae-ed4b-4606-9475-0fb3342eb233"/>
+    <weighted-embedded-action uid="375a5fb1-91bd-4603-84c3-3e1d8572942b"/>
+    <weighted-embedded-action uid="86987930-6025-407e-8b4d-cdec1a3cb472"/>
+    <weighted-embedded-action uid="7ef98608-6ceb-4732-9aa2-5618796427ec"/>
+    <weighted-embedded-action uid="9e04f0c3-3c0c-4477-b8cd-5d13bcc0ba62"/>
+    <weighted-embedded-action uid="495177f4-0fe5-4de5-be9e-3e400e8348ea"/>
+</basic-logical-action-container>
